@@ -91,9 +91,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/popper.js/dist/umd/popper.min.js",
+              "node_modules/boostrap/dist/js/bootstrap.min.js"
+            ]
           }
         },
         "lint": {
@@ -124,5 +129,8 @@
       }
     }
   },
-  "defaultProject": "RoomBookingClient"
+  "defaultProject": "RoomBookingClient",
+  "cli": {
+    "analytics": "b8b9928b-d887-4881-b699-61572c7fb92e"
+  }
 }
